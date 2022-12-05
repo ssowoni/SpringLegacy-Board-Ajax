@@ -39,7 +39,7 @@
   	<update id="updatePost">
 		update board 
 		set title =#{title},
-		content = #{content},
+		content = #{content}
 		where no =#{no}
   	</update>
   	
